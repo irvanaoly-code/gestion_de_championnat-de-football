@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Créer un compte Footboard.">
+  <title>Footboard | Créer un compte</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="login-screen" aria-labelledby="signup-title">
+    <div class="login-visual"><span class="login-ball">⚽</span><p class="eyebrow">PLATEFORME OFFICIELLE</p><h1>Le championnat<br><em>commence ici.</em></h1><p>Créez votre compte et gérez vos équipes, vos matchs et vos performances depuis un seul espace.</p><div class="login-score"><span>SAISON 2024/25</span><strong>18</strong><small>MATCHS JOUÉS</small><i></i><strong>47</strong><small>BUTS INSCRITS</small></div></div>
+    <form class="login-form signup-form" id="signup-form">
+      <a class="back-link" href="/ouvrage.html" aria-label="Retour à la connexion">← Retour à la connexion</a>
+      <div class="login-brand"><span class="brand-mark">FC</span><strong>FOOT<span>BOARD</span></strong></div>
+      <p class="eyebrow">NOUVEAU MEMBRE</p><h2 id="signup-title">Créer un compte</h2><p class="login-intro">Rejoignez la plateforme de gestion du championnat.</p>
+      <label for="signup-name">Nom complet<input id="signup-name" type="text" placeholder="Votre nom" autocomplete="name" required></label>
+      <label for="signup-email">Adresse e-mail<input id="signup-email" type="email" placeholder="vous@exemple.fr" autocomplete="email" required></label>
+      <label for="signup-password">Mot de passe<input id="signup-password" type="password" placeholder="6 caractères minimum" minlength="6" required></label>
+      <label for="signup-confirm">Confirmer le mot de passe<input id="signup-confirm" type="password" placeholder="Répétez le mot de passe" minlength="6" required></label>
+      <p class="login-error" id="signup-error" role="alert"></p><button class="primary-button login-button" type="submit">Créer mon compte <span>→</span></button><p class="account-switch">Vous avez déjà un compte ? <a href="/ouvrage.html">Se connecter</a></p>
+    </form>
+  </section>
+  <script src="/js/inscription.js"></script>
+</body>
+</html>

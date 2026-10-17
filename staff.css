@@ -1,0 +1,45 @@
+.staff-section {
+  align-content: start;
+  scroll-margin-block: 22px;
+}
+
+.staff-section > .panel-heading {
+  align-items: center;
+  margin: 0 0 14px;
+  padding: 0;
+}
+
+.staff-section .panel-heading h3 {
+  margin: 0;
+  color: var(--ink);
+  font: bold 15px Arial, sans-serif;
+  text-transform: none;
+}
+
+.staff-section .staff-list {
+  min-height: 24px;
+}
+
+.venue-panel {
+  align-content: start;
+  scroll-margin-block: 22px;
+}
+
+.venue-panel > .panel-heading {
+  align-items: center;
+  margin: 0 0 14px;
+  padding: 0;
+}
+
+.venue-panel .venue-heading h3 {
+  margin: 0;
+  color: var(--ink);
+  font: bold 15px Arial, sans-serif;
+  text-transform: none;
+}
+
+.venue-panel .venue-management {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
