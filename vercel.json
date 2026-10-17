@@ -1,6 +1,7 @@
 {
   "functions": {
     "api/[...path].js": {
+      "includeFiles": "{*.html,*.css,js/**}",
       "maxDuration": 30
     }
   },
